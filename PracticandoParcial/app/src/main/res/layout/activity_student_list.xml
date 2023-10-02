@@ -1,0 +1,98 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*">
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="80dp"
+            android:padding="10dp"
+            android:text="@string/student_name" />
+        <TextView
+            android:text="@string/student_grades"
+            android:padding="10dp" />
+        <TextView
+            android:text="@string/final_grade"
+            android:padding="10dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/student1"
+            android:text="@string/student1"
+            android:padding="10dp" />
+        <TextView
+            android:text="@string/student_grades"
+            android:padding="10dp" />
+        <TextView
+            android:text="@string/final_grade"
+            android:padding="10dp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/uploadButton1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/upload_grades" />
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/student2"
+            android:text="@string/student2"
+            android:padding="10dp" />
+        <TextView
+            android:text="@string/student_grades"
+            android:padding="10dp" />
+        <TextView
+            android:text="@string/final_grade"
+            android:padding="10dp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/uploadButton2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/upload_grades" />
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/student3"
+            android:text="@string/student3"
+            android:padding="10dp" />
+        <TextView
+            android:text="@string/student_grades"
+            android:padding="10dp" />
+        <TextView
+            android:text="@string/final_grade"
+            android:padding="10dp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/uploadButton3"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/upload_grades" />
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/logoutButton"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/logout" />
+        </LinearLayout>
+    </TableRow>
+
+</TableLayout>

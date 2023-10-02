@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Construyendo Futuro</string>
+    <string name="login_title">Iniciar sesión</string>
+    <string name="username_hint">Usuario</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="login_button">Iniciar sesión</string>
+    <string name="student_name">Nombre del estudiante</string>
+    <string name="student_grades">Notas parciales</string>
+    <string name="final_grade">Nota final</string>
+    <string name="student1">Juan Pablo</string>
+
+    <string name="student2">Camilo</string>
+    <string name="student3">Juan Diego</string>
+
+    <string name="logout">Cerrar sesión</string>
+    <string name="upload_grades">Subir notas</string>
+</resources>
