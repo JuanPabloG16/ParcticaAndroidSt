@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class StudentListActivity extends AppCompatActivity {
+public class HolaXD extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

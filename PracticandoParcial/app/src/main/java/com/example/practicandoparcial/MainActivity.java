@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         if (username.equals(storedUsername) && password.equals(storedPassword)) {
             // Inicio de sesión exitoso, inicia StudentListActivity
 
-            Intent intent = new Intent(this,StudentListActivity.class);
+            Intent intent = new Intent(this, HolaXD.class);
             startActivity(intent);
 
         } else {
